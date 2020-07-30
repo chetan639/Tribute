@@ -22,12 +22,13 @@ html {
 }
 
 .main-heading {
-  margin-left: 200px;
+  margin-left: 190px;
   text-align: left;
   padding-top: 40px;
   position: relative;
   animation-name: myanimation;
   animation-duration: 2s;
+  font-size: 100px;
   /* animation-delay: 1s; */
 }
 
@@ -42,11 +43,15 @@ html {
 }
 
 .big-heading {
-  padding: 100px 30px 300px;
+  padding: 150px 200px 300px;
   /* position: relative; */
   animation-name: biganimation;
   animation-duration: 2s;
   /* text-align: center; */
+}
+
+.big-heading h2 {
+  font-size: 60px;
 }
 
 @keyframes biganimation {
@@ -203,6 +208,9 @@ html {
 }
 
 @media (max-width: 670px) {
+  .big-heading {
+    padding-top: 0;
+  }
   .quote {
     height: auto;
   }
