@@ -1,111 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boostrap JS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--Linking styles.css-->
+    <link rel="stylesheet" href="css/styles.css" />
 
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Boostrap JS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <!--AOS-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <!--Linking styles.css-->
-  <link rel="stylesheet" href="css/styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" />
+    <title>Tribute to Messi</title>
+  </head>
 
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <!--AOS JS-->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <!-- Favicon -->
-  <link rel="icon" href="images/logo.png" />
-  <title>Tribute to Messi</title>
-</head>
-
-<body>
-  <section id="heading">
-    <div class="container-fluid bg-image" style="background-image: url('images/messi4.jpg');">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#performances"><button type="button" class="btn btn-info">Best
-                  Performances</button></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#evolution">Evolution of Messi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#quotes">Quotes on Messi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Records">Records</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <h1 class="main-heading">The G.O.A.T </h1>
-
-      <div class="big-heading">
-        <h2>🐐Lionel Andres Messi</h2>
+  <body>
+    <nav class="navigation-bar">
+      <div class="navigation-head">
+        MESSI
       </div>
-    </div>
-  </section>
-  <section id="Records">
-    <h1 class="rec-heading">Achievements</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="competitions shadow" style="background-image: url(images/messilaliga.jpg);" data-aos="zoom-in">
-            <h3 class="record-heads">LaLiga x10</h3>
-          </div>
 
-          <div class="competitions shadow" style="background-image: url(images/messichampionsleague.jpg);"
-            data-aos="zoom-in">
-            <h3 class="record-heads">UEFA Champions League x4</h3>
-          </div>
+      <div class="navigation-">
+        <ul class="navigation-items">
+          <li><a class="navigation-item" href="#trophies">Trophies</a></li>
+          <li><a class="navigation-item" href="#">Records</a></li>
+          <li><a class="navigation-item" href="#evolution">Evolution</a></li>
+          <li><a class="navigation-item" href="#quotes">Quotes on Messi</a></li>
+        </ul>
+      </div>
+    </nav>
 
-          <div class="competitions shadow" style="background-image: url(images/messiuefasupercup.jpg);"
-            data-aos="zoom-in">
-            <h3 class="record-heads">UEFA Super Cup x3</h3>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="competitions shadow" style="background-image: url(images/messicopadelrey.jpg);"
-            data-aos="zoom-in">
-            <h3 class="record-heads">Copa Del Rey x6</h3>
-          </div>
+    <section id="heading"></section>
+    <section id="trophies">
+      <h1 class="rec-heading">Achievements</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messilaliga.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">LaLiga x10</h3>
+            </div>
 
-          <div class="competitions shadow" style="background-image: url(images/messisupercopaespana.jpg);"
-            data-aos="zoom-in">
-            <h3 class="record-heads">Supercopa de España x8</h3>
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messichampionsleague.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">UEFA Champions League x4</h3>
+            </div>
+
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messiuefasupercup.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">UEFA Super Cup x3</h3>
+            </div>
           </div>
-          <div class="competitions shadow" style="background-image: url(images/messiclubworldcup.jpg);"
-            data-aos="zoom-in">
-            <h3 class="record-heads">FIFA Club World Cup x3</h3>
+          <div class="col-lg-6">
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messicopadelrey.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">Copa Del Rey x6</h3>
+            </div>
+
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messisupercopaespana.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">Supercopa de España x8</h3>
+            </div>
+            <div
+              class="competitions shadow"
+              style="background-image: url(images/messiclubworldcup.jpg);"
+              data-aos="zoom-in"
+            >
+              <h3 class="record-heads">FIFA Club World Cup x3</h3>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="evolution">
-    <!-- <h1 class="evolution-head">Lets have a look at Messi's illustrious career:</h1> -->
-    <div id="carouselExampleCaptions" class="carousel carousel-fade" data-ride="carousel">
-      <!-- <ol class="carousel-indicators">
+    </section>
+    <section id="evolution">
+      <!-- <h1 class="evolution-head">Lets have a look at Messi's illustrious career:</h1> -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel carousel-fade"
+        data-ride="carousel"
+      >
+        <!-- <ol class="carousel-indicators">
           <li
             data-target="#carouselExampleCaptions"
             data-slide-to="0"
@@ -118,219 +133,294 @@
           <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
         </ol> -->
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <!-- <h3 style="background-color: #826f9b;margin-bottom: 0;color: #ffffff;text-align: center;">Lets have a look at
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <h3 style="background-color: #826f9b;margin-bottom: 0;color: #ffffff;text-align: center;">Lets have a look at
             Messi's illustrious
             career:</h3> -->
-          <img src="images/messislidestart.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block starting">
-            <h5>Lets have a look at Messi's illustrious career:</h5>
+            <img
+              src="images/messislidestart.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block starting">
+              <h5>Lets have a look at Messi's illustrious career:</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/newellsoldboys.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First Club</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/lamasia.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Joining Barcelona</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/debut.jpeg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block debut">
+              <h5>Barcelona Debut</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/firstgoal.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block firstgoal">
+              <h5>Scoring his first goal</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/firsthattrick.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block hatrick">
+              <h5>First Hat-trick</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/beastgoal.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block hatrick">
+              <h5>Beating 5 defenders to score</h5>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/newellsoldboys.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First Club</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/lamasia.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Joining Barcelona</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/debut.jpeg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block debut">
-            <h5>Barcelona Debut</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/firstgoal.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block firstgoal">
-            <h5>Scoring his first goal</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/firsthattrick.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block hatrick">
-            <h5>First Hat-trick</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="images/beastgoal.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block hatrick">
-            <h5>Beating 5 defenders to score</h5>
-          </div>
-        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleCaptions"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
-  <section id="quotes">
-    <h1 class="quote-head">Quotes on Messi</h1>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Messi does not need his right foot. He only uses the left and
-            he’s still the best in the world. Imagine if he also used his
-            right foot, then we would have serious problems.”
-          </h5>
-          <h4>
-            - Zlatan Ibrahimovic
-            <img src="images/zlatan.png" class="ballers" />
-          </h4>
+    </section>
+    <section id="quotes">
+      <h1 class="quote-head">Quotes on Messi</h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Messi does not need his right foot. He only uses the left and
+              he’s still the best in the world. Imagine if he also used his
+              right foot, then we would have serious problems.”
+            </h5>
+            <h4>
+              - Zlatan Ibrahimovic
+              <img src="images/zlatan.png" class="ballers" />
+            </h4>
+          </div>
+
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Once they said they can only stop me with a pistol. Today you
+              need a machine gun to stop Messi.”
+            </h5>
+            <h4>
+              - Hristo Stoichkov
+              <img src="images/stoichkov.png" class="ballers" />
+            </h4>
+          </div>
+
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Don’t write about him, don’t try to describe him, just watch
+              him.”
+            </h5>
+            <h4>
+              - Pep Guardiola <img src="images/guardiola.png" class="ballers" />
+            </h4>
+          </div>
         </div>
 
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Once they said they can only stop me with a pistol. Today you
-            need a machine gun to stop Messi.”
-          </h5>
-          <h4>
-            - Hristo Stoichkov
-            <img src="images/stoichkov.png" class="ballers" />
-          </h4>
+        <div class="col-lg-6">
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Messi will be the player to win the most Ballons d’Or in history.
+              He will win five, six, seven. He is incomparable. He’s in a
+              different league.”
+            </h5>
+            <h4>
+              - Johan Cryuff <img src="images/cruyff.png" class="ballers" />
+            </h4>
+          </div>
+
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Although he may not be human, it’s good that Messi still thinks
+              he is.”
+            </h5>
+            <h4>
+              - Javier Mascherano
+              <img src="images/mascherano.png" class="ballers" />
+            </h4>
+          </div>
+
+          <div class="quote shadow" data-aos="zoom-in">
+            <h5>
+              “Messi is class. There is him, and then there is the rest. What he
+              does is extraordinary.”
+            </h5>
+            <h4>
+              - Franck Ribery <img src="images/ribery.png " class="ballers" />
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="performances">
+      <h1 class="quote-head">Best Performances</h1>
+      <div class="my-container">
+        <div
+          class="box box1"
+          style="background-image: url(images/messishirt.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Real Marid 2 - 3 Barcelona : LaLiga 2016/17
+              <p class="para">
+                2 Goals for Messi including a last minute winner.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box box2"
+          style="background-image: url(images/messiuclrm.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Real Madrid 0 - 2 Barcelona : UCL Semi Finals 2010/11
+              <p class="para">
+                Messi with both the goals. Messi scored one the greatest UCL
+                goals of all time
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box box3"
+          style="background-image: url(images/messivsleverkusen.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 7 -1 Bayer Leverkusen : UCL Round of 16 2011/12
+              <p class="para">Messi scored 5 goals,I repeat FIVE</p>
+            </div>
+          </div>
         </div>
 
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Don’t write about him, don’t try to describe him, just watch
-            him.”
-          </h5>
-          <h4>
-            - Pep Guardiola <img src="images/guardiola.png" class="ballers" />
-          </h4>
+        <div
+          class="box box4"
+          style="background-image: url(images/messiucl2011final.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 3-1 Manchester United : UCL Final 2010/11
+              <p class="para">
+                Messi instrumental in Barcelona winning the Final.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="col-lg-6">
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Messi will be the player to win the most Ballons d’Or in history.
-            He will win five, six, seven. He is incomparable. He’s in a
-            different league.”
-          </h5>
-          <h4>
-            - Johan Cryuff <img src="images/cruyff.png" class="ballers" />
-          </h4>
+        <div
+          class="box box5"
+          style="background-image: url(images/messivsbayern.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 3-1 Bayern Munich : UCL Semi Final 2014/15
+              <p class="para">
+                Messi with a great performance to help Barca into the Final
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Although he may not be human, it’s good that Messi still thinks
-            he is.”
-          </h5>
-          <h4>
-            - Javier Mascherano
-            <img src="images/mascherano.png" class="ballers" />
-          </h4>
+        <div
+          class="box box6"
+          style="background-image: url(images/messivsarsenal.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 4-1 Arsenal : UCL Round of 16 2009/10
+              <p class="para">
+                Messi with one of the greatest performances in the champions
+                league scoring four past Arsenal
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="quote shadow" data-aos="zoom-in">
-          <h5>
-            “Messi is class. There is him, and then there is the rest. What he
-            does is extraordinary.”
-          </h5>
-          <h4>
-            - Franck Ribery <img src="images/ribery.png " class="ballers" />
-          </h4>
+        <div
+          class="box box7"
+          style="background-image: url(images/messiucl2009final.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 2 - 0 Manchester United UCL Final 2008/09
+              <p class="para">
+                Messi scored a towering header to seal the Champions League.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section id="performances">
-    <h1 class="quote-head">Best Performances</h1>
-    <div class="my-container">
-      <div class="box box1" style="background-image: url(images/messishirt.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Real Marid 2 - 3 Barcelona : LaLiga 2016/17
-            <p class="para">2 Goals for Messi including a last minute winner.</p>
+        <div
+          class="box box8"
+          style="background-image: url(images/messihattrick19.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Barcelona 3-3 Real Madrid : LaLiga 2006/07
+              <p class="para">
+                A 19 year old Messi scored 3 past Real Madrid to salvage a draw
+                for Barcelona
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="box box9"
+          style="background-image: url(images/messivsreal62.jpg);"
+          data-aos="flip-left"
+        >
+          <div class="content">
+            <div class="text">
+              Real Madrid 2 - 6 Barcelona : LaLiga 2008/09
+              <p class="para">
+                The day False 9 Messi was introduced to the world.Messi was just
+                too good for Madrid on that day.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="box box2" style="background-image: url(images/messiuclrm.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Real Madrid 0 - 2 Barcelona : UCL Semi Finals 2010/11
-            <p class="para">Messi with both the goals. Messi scored one the greatest UCL goals of all time</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box3" style="background-image: url(images/messivsleverkusen.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 7 -1 Bayer Leverkusen : UCL Round of 16 2011/12
-            <p class="para">Messi scored 5 goals,I repeat FIVE</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="box box4" style="background-image: url(images/messiucl2011final.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 3-1 Manchester United : UCL Final 2010/11
-            <p class="para">Messi instrumental in Barcelona winning the Final.</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box5" style="background-image: url(images/messivsbayern.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 3-1 Bayern Munich : UCL Semi Final 2014/15
-            <p class="para">Messi with a great performance to help Barca into the Final</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box6" style="background-image: url(images/messivsarsenal.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 4-1 Arsenal : UCL Round of 16 2009/10
-            <p class="para">Messi with one of the greatest performances in the champions league scoring four past
-              Arsenal</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box7" style="background-image: url(images/messiucl2009final.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 2 - 0 Manchester United UCL Final 2008/09
-            <p class="para">Messi scored a towering header to seal the Champions League.</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box8" style="background-image: url(images/messihattrick19.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Barcelona 3-3 Real Madrid : LaLiga 2006/07
-            <p class="para">A 19 year old Messi scored 3 past Real Madrid to salvage a draw for Barcelona</p>
-          </div>
-        </div>
-      </div>
-      <div class="box box9" style="background-image: url(images/messivsreal62.jpg);" data-aos="flip-left">
-        <div class="content">
-          <div class="text">
-            Real Madrid 2 - 6 Barcelona : LaLiga 2008/09
-            <p class="para">The day False 9 Messi was introduced to the world.Messi was just too good for Madrid on that
-              day.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    </section>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

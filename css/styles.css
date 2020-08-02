@@ -1,5 +1,7 @@
 html {
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 /* Top Screen */
@@ -8,10 +10,10 @@ html {
 }
 
 .bg-image {
-  background-position: top 0 right 40%;
+  background-position: bottom 50% right 40%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   color: #ffffff;
   height: 750px;
 }
@@ -79,25 +81,34 @@ html {
 }
 
 /*navigation bar*/
-
-.navbar {
+nav {
+  display: flex;
+  background-color: #d8ab56;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.navbar-nav {
-  margin-top: 15px;
+.navigation-elements {
+  width: 40%;
 }
 
-.nav-item {
-  padding: 20px;
+.navigation-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
 }
 
-.nav-link {
-  font-size: 20px;
+.navigation-item {
+  color: #ffffff;
 }
+
+
 
 /* Records */
-#Records {
+#trophies {
   background-color: #f9d89c;
+  /* background-color: blue; */
+
   padding: 20px;
 }
 
@@ -192,6 +203,7 @@ html {
 /* Quotes */
 #quotes {
   background-color: #f9d89c;
+
 }
 
 .quote-head {
@@ -211,6 +223,7 @@ html {
   .big-heading {
     padding-top: 0;
   }
+
   .quote {
     height: auto;
   }
@@ -235,11 +248,11 @@ html {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.my-container > div {
+.my-container>div {
   background-color: #eeeeee;
 }
 
-.my-container > div:nth-child(odd) {
+.my-container>div:nth-child(odd) {
   background-color: #dddddd;
 }
 
@@ -351,9 +364,11 @@ html {
   .box .content .text {
     height: inherit;
   }
+
   .box9 .content {
     margin-left: 25%;
   }
+
   .box9 .content .text {
     margin: unset;
     height: 25px;
@@ -370,14 +385,17 @@ html {
   .box8 {
     background-position-x: center;
   }
+
   .box3 {
     background-position-y: center;
   }
+
   .content {
     opacity: 0.75;
     border-radius: 50px;
     padding-top: 7%;
   }
+
   .text {
     margin: 5%;
     max-height: 80px;
