@@ -1,112 +1,70 @@
+* {
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
 html {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
+
+}
+
+h1 {
+  font-weight: bold;
 }
 
 /* Top Screen */
-#heading {
-  background-color: #12cad6;
-}
-
-.bg-image {
-  background-position: bottom 50% right 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background-attachment: fixed; */
-  color: #ffffff;
-  height: 750px;
-}
-
-.main-img {
-  height: 50%;
-  width: 100%;
-}
-
-.main-heading {
-  margin-left: 190px;
-  text-align: left;
-  padding-top: 40px;
-  position: relative;
-  animation-name: myanimation;
-  animation-duration: 2s;
-  font-size: 100px;
-  /* animation-delay: 1s; */
-}
-
-@keyframes myanimation {
-  0% {
-    top: -200px;
-  }
-
-  100% {
-    top: 0px;
-  }
-}
-
-.big-heading {
-  padding: 150px 200px 300px;
-  /* position: relative; */
-  animation-name: biganimation;
-  animation-duration: 2s;
-  /* text-align: center; */
-}
-
-.big-heading h2 {
-  font-size: 60px;
-}
-
-@keyframes biganimation {
-  0% {
-    left: -200px;
-  }
-
-  100% {
-    left: 0px;
-  }
-}
-
-.big-heading h2 {
-  position: relative;
-}
-
-.picture {
-  padding: 100px 50px;
-  height: 100%;
-}
-
-.head-img {
-  height: 100px;
-  width: 100px;
-}
 
 /*navigation bar*/
 nav {
   display: flex;
-  background-color: #d8ab56;
+  background-color: #272222;
   justify-content: space-around;
   align-items: center;
+  color: #eeeeee;
 }
 
-.navigation-elements {
-  width: 40%;
+.navigation-side {
+  width: 70%;
 }
 
 .navigation-items {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .navigation-item {
-  color: #ffffff;
+  list-style-type: none;
 }
+
+.navigation-item a {
+  color: #cfc7c7;
+  letter-spacing: 3px;
+}
+
+.navigation-item a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.navigation-heading img {
+  margin: 8px;
+  max-height: 70px;
+}
+
+@media (max-width: 990px) {}
+
 
 
 
 /* Records */
 #trophies {
-  background-color: #f9d89c;
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background-color: blue; */
 
   padding: 20px;
@@ -201,14 +159,11 @@ nav {
 }
 
 /* Quotes */
-#quotes {
-  background-color: #f9d89c;
-
-}
 
 .quote-head {
   text-align: center;
   padding: 30px;
+  color: #eeeeee;
 }
 
 .quote {
@@ -239,6 +194,15 @@ nav {
 }
 
 /* Performances */
+#performances {
+  background-color: grey;
+}
+
+.performance-head {
+  text-align: center;
+  padding: 30px;
+  color: #272222;
+}
 
 .my-container {
   padding: 20px;
@@ -277,8 +241,8 @@ nav {
 }
 
 .text {
-  color: #ffffff;
-  background-color: red;
+  color: white;
+  background-color: grey;
   text-align: center;
 }
 
